@@ -138,7 +138,7 @@ class _GroceriesScreenState extends State<GroceriesScreen> {
     }
 
     if (_error != null) {
-      content = content = Center(
+      content = Center(
         child: Text(
           _error!,
           style: Theme.of(context).textTheme.titleLarge,
